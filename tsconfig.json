@@ -18,7 +18,7 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["./components/*"],
-      "@assets/*": ["./assets/*"]
+      "@assets/*": ["./assets/*"],
     },
   },
   "include": ["src", "**/*.ts", "**/*.tsx"],
