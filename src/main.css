@@ -92,7 +92,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: vr(--color-primary);
-  padding: 0.75rem, 1.2rem;
+  padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
@@ -114,4 +114,24 @@ a:hover {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+/* MEDI QUERY (MEDIUM DEVICES */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem
+  }
+}
+
+/* MEDI QUERY (SMALL DEVICES */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem
+  }
 }
