@@ -16,10 +16,11 @@ const Header = () => {
         <CTA />
         <Socials />
 
-        <div className="me"></div>
-        <img src={ME} alt='me' />
+        <div className="me">
+          <img src={ME} alt='me' />
+        </div>
+        <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
-      <a href='#contact' className='scroll__down'>Scroll Down</a>
     </header>
   );
 };
