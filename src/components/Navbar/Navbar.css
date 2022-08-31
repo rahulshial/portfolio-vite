@@ -1,19 +1,33 @@
-/* import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-export const NavbarContainer = styled.nav`
-  background-color: #04AA6D;
-  color: white;
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
   display: flex;
-  justify-content: flex-End;
-  gap: 2rem;
-  padding: 0 1rem;
-  height: 50px;
-  align-items: center;
-  font-size: 20px;
-`;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
 
-export const LinkItem = styled(Link)`
- &:hover {background-color: #777;}
- text-decoration: none;
- color: white;
-`; */
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+}
