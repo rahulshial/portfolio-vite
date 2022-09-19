@@ -7,7 +7,6 @@ import './Header.css';
 
 const Header = () => {
   return (
-    // <div>Header</div>
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
