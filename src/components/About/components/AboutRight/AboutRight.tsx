@@ -6,7 +6,7 @@ const AboutRight = () => {
   return (
     <div className="about__content">
       <AboutCards />
-      <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+
     </div>
   )
 }

@@ -12,6 +12,9 @@ const About = () => {
         <AboutLeft />
         <AboutRight />
       </div>
+      <div className="btn__container">
+        <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+      </div>
     </section >
   );
 };

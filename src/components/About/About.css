@@ -4,14 +4,13 @@
   gap: 10%;
 }
 #about {
-  background: var(--color-white);
-}
-.section_title {
-  color: var(--color-black);
-  font-weight: bold;
-  letter-spacing: 2px;
+  background: var(--color-bg-columbia-blue);
 }
 
+.btn__container {
+  margin: 10px;
+  text-align: center;
+}
 /* MEDI QUERY (MEDIUM DEVICES */
 @media screen and (max-width: 1200px) {
   .about__container {
