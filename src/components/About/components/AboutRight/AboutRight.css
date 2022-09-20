@@ -1,0 +1,16 @@
+
+/* MEDI QUERY (MEDIUM DEVICES */
+@media screen and (max-width: 1200px) {
+}
+
+/* MEDI QUERY (SMALL DEVICES */
+@media screen and (max-width: 600px) {
+.about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px
+  }
+
+  .about__content {
+    text-align: center;
+  }
+}
