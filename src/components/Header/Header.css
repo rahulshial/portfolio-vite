@@ -24,6 +24,11 @@
   justify-content: center;
 }
 
+.header__socials a {
+  color: var(--color-white);
+  font-size: x-large;
+}
+
 .header__text {
   font-size: 48px;
   font-style: bold;
@@ -32,7 +37,6 @@
 
 .highlight {
   color:#e31b6d;
-  font-style: italic;
 }
 
 .me {
