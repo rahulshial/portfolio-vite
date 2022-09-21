@@ -3,8 +3,9 @@
   grid-template-columns: 35% 55%;
   gap: 10%;
 }
+
 #about {
-  background: var(--color-bg-columbia-blue);
+  background: var(--color-white);
 }
 
 .btn__container {
