@@ -19,12 +19,13 @@
   --color-white: #fff;
   --color-black: #000;
   --color-light: rgba(255, 255, 255, 0.6);
-  --color-gray: rgb(215, 210, 210);
+  --color-gray: #eee;
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
   --transition: all 400ms ease;
-  font-family: 'Poppins', sans-serif;
+  --color-teal-secondary: #04c2c9;
+  --color-teal-primary: #00a1a7;
 }
 
 html {
@@ -39,7 +40,6 @@ body {
   font-family: 'Raleway', sans-serif;
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg)
 }
 
 /* GENERAL STYLES */
@@ -64,7 +64,7 @@ section {
 
 section > h2, section > h5 {
   text-align: center;
-  color: var(--color-light)
+  /* color: var(--color-light) */
 }
 
 section > h2 {

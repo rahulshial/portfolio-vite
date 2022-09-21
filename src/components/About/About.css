@@ -5,7 +5,8 @@
 }
 
 #about {
-  background: var(--color-white);
+  background: url(../../assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) no-repeat;
+  background-size: 100%;
 }
 
 .btn__container {

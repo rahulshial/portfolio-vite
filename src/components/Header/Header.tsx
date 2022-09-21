@@ -7,9 +7,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    // <header>
-      <div className="header">
-
+    <div className="header">
       <div className="header__container">
         <div className="header__text">
           Hello, I'm
@@ -19,8 +17,7 @@ const Header = () => {
         </div>
         <Socials />
       </div>
-      </div>
-    // </header>
+    </div>
   );
 };
 

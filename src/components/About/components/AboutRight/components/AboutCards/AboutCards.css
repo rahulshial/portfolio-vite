@@ -5,30 +5,25 @@
 }
 
 .about__card {
-  background: var(--color-bg-secondary);
+  background-color: var(--color-teal-secondary);
   border: 1px solid transparent;
-  border-radius: 10%;
+  border-radius: 5%;
   text-align: center;
 }
 
-.about__card:hover {
-  background: transparent;
-  border-color: var(--color-secondary);
-  cursor: default;
-}
-
 .card__icon {
-  color: var(--color-primary);
+  color: var(--color-white);
   font-size: 22px;
-  margin-bottom: 16px;;
+  margin: 8px;
 }
 
 .about__card h5 {
   font-size: 14px;
+  color: var(--color-white);
 }
 
 .about__card small {
-  color: var(--color-light);
+  color: var(--color-white);
   font-size: 11px;
 }
 
