@@ -13,8 +13,8 @@ const AboutLeft = () => {
           <img src={ME} alt='About Me' />
         </div>
       </div>
-      <p>{aboutMeTextL1}</p>
-      <p>{aboutMeTextL2}</p>
+      <p className='about__me__text'>{aboutMeTextL1}</p>
+      <p className='about__me__text'>{aboutMeTextL2}</p>
     </div>
   )
 }
