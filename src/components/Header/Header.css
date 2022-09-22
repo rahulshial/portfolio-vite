@@ -41,22 +41,11 @@
   color:#e31b6d;
 }
 
-.me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 352px;
-  height: 480px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 64px;
-  border-radius: 192px 192px 0 0;
-  padding: 16px 24px 24px 16px;
-}
-
 /* MEDI QUERY (MEDIUM DEVICES */
 @media screen and (max-width: 1200px) {
   .header {
     height: 100vh;
+    background-size: cover;
   }
   .header__container {
     width: 90%
@@ -66,15 +55,15 @@
 /* MEDI QUERY (SMALL DEVICES */
 @media screen and (max-width: 600px) {
   .header {
-    height: 100vh;
+    background-size: cover;
+    margin: 0;
   }
+
   .header__container {
     width: 90%
   }
+
   .header__text {
     font-size: 20px;
-  }
-  .header__socials, .scroll__down {
-    display: none;
   }
 }

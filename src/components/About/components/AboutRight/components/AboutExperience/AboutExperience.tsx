@@ -13,7 +13,6 @@ const AboutExperience = () => {
               {item.label}
             </div>
           </div>
-          <div className='item__value' style={{width: 100 - item.value + '%'}}>{item.value + '%'}</div>
         </div>
       )
     })

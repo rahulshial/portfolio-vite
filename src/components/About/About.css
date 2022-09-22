@@ -7,7 +7,6 @@
 #about {
   background: url(../../assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) no-repeat;
   background-size: 100%;
-  /* background-size: contain; */
 }
 
 .btn__container {
@@ -24,15 +23,22 @@
     background-size: cover;
     margin: 0;
   }
+  .section_title {
+    padding-top: 20px;
+  }
 }
 
 /* MEDI QUERY (SMALL DEVICES */
 @media screen and (max-width: 600px) {
   #about {
-    background-size: cover;
+    background-size: fill;
     margin: 0;
   }
 
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 
   .about__me__container p {
     margin: 4px 0 4px;
