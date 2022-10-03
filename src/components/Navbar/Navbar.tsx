@@ -20,12 +20,6 @@ const Navbar = () => {
       >
         <AiOutlineUser />
       </a>
-      <a href='#experience'
-        onClick={() => setActiveNav('#experience')}
-        className={activeNav === '#experience' ? 'active' : ''}
-      >
-        <AiOutlineDashboard />
-      </a>
       <a href='#portfolio'
         onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#portfolio' ? 'active' : ''}
