@@ -1,7 +1,7 @@
-#portfolio {
+/* #portfolio {
   background: url(../../assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) no-repeat;
   background-size: 100%;
-}
+} */
 
 .portfolio__container {
   display: grid;
@@ -31,16 +31,15 @@
 }
 
 .portfolio__item-image {
-  overflow: hidden;
+  background-size: 100%;
 }
-
 
 /* MEDI QUERY (MEDIUM DEVICES */
 @media screen and (max-width: 1200px) {
-  #portfolio {
+  /* #portfolio {
     background-size: cover;
     margin: 0;
-  }
+  } */
   .portfolio__container {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -52,11 +51,11 @@
 
 /* MEDI QUERY (SMALL DEVICES */
 @media screen and (max-width: 600px) {
-  #portfolio {
+  /* #portfolio {
     background-size: fill;
     margin: 0;
     height: 100%
-  }
+  } */
 
   .portfolio__container {
     grid-template-columns: 1fr;

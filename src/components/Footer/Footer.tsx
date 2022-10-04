@@ -3,7 +3,9 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section id='footer'>
+      <h2 className='section_title'>Footer</h2>
+    </section>
   );
 };
 

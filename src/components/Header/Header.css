@@ -2,8 +2,8 @@
   height: 100vh;
   width: 100vw;
   position: relative;
-  background: url(../../assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) no-repeat;
-  background-size: 100%;
+  /* background: url(../../assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) no-repeat;
+  background-size: 100%; */
 }
 
 .header__container {
@@ -43,10 +43,10 @@
 
 /* MEDI QUERY (MEDIUM DEVICES */
 @media screen and (max-width: 1200px) {
-  .header {
+  /* .header {
     height: 100vh;
     background-size: cover;
-  }
+  } */
   .header__container {
     width: 90%
   }
@@ -54,10 +54,10 @@
 
 /* MEDI QUERY (SMALL DEVICES */
 @media screen and (max-width: 600px) {
-  .header {
+  /* .header {
     background-size: cover;
     margin: 0;
-  }
+  } */
 
   .header__container {
     width: 90%
