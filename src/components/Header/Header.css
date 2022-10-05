@@ -40,7 +40,7 @@
 }
 
 /* MEDI QUERY (MEDIUM DEVICES */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .header__container {
     width: 90%
   }

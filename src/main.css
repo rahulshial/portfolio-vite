@@ -26,8 +26,7 @@
   --transition: all 400ms ease;
   --color-teal-secondary: #04c2c9;
   --color-teal-primary: #00a1a7;
-  --medium: 900px;
-  --small: 600px
+
 }
 
 html {
@@ -110,19 +109,19 @@ a:hover {
 }
 
 /* MEDI QUERY (MEDIUM DEVICES) */
-@media screen and (max-width: var(--medium)) {
+@media screen and (max-width: 900px) {
+
   .container {
     width: var(--container-width-md);
     background-size: fill;
     margin: 0;
   }
-  /* section {
-    margin-top: 96px
-  } */
 }
 
 /* MEDI QUERY (SMALL DEVICES) */
-@media screen and (max-width: var(--small)) {
+@media screen and (max-width: 600px) {
+
+
   .container {
     width: var(--container-width-sm);
   }

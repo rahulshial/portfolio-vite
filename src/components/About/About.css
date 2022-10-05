@@ -10,7 +10,7 @@
   text-align: center;
 }
 /* MEDI QUERY (MEDIUM DEVICES */
-@media screen and (max-width: var(--medium)) {
+@media screen and (max-width: 900px) {
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
@@ -22,7 +22,7 @@
 }
 
 /* MEDI QUERY (SMALL DEVICES */
-@media screen and (max-width: var(--small)) {
+@media screen and (max-width: 900px600px) {
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;

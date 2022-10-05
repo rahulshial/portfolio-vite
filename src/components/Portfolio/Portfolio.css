@@ -31,7 +31,7 @@
 }
 
 /* MEDI QUERY (MEDIUM DEVICES */
-@media screen and (max-width: var(--medium)) {
+@media screen and (max-width: 900px) {
   .portfolio__container {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -42,7 +42,7 @@
 }
 
 /* MEDI QUERY (SMALL DEVICES */
-@media screen and (max-width: var(--small)) {
+@media screen and (max-width: 900px600px) {
   .portfolio__container {
     display: flex;
     flex-direction: column;
