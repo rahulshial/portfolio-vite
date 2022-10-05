@@ -2,42 +2,31 @@
   display: grid;
   grid-template-columns: 35% 55%;
   gap: 10%;
+  height: 100%;
 }
-
-/* #about {
-  background: url(../../assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) no-repeat;
-  background-size: 100%;
-} */
 
 .btn__container {
   margin: 10px;
   text-align: center;
 }
 /* MEDI QUERY (MEDIUM DEVICES */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: var(--medium)) {
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
   }
-  /* #about {
-    background-size: cover;
-    margin: 0;
-  } */
+  
   .section_title {
     padding-top: 20px;
   }
 }
 
 /* MEDI QUERY (SMALL DEVICES */
-@media screen and (max-width: 600px) {
-  /* #about {
-    background-size: fill;
-    margin: 0;
-  } */
-
+@media screen and (max-width: var(--small)) {
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
+    height: 100vh;
   }
 
   .about__me__container p {

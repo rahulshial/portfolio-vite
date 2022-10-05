@@ -6,13 +6,13 @@ import AboutRight from './components/AboutRight/AboutRight';
 
 const About = () => {
   return (
-    <section id='about'>
+    <div id='about'>
       <h2 className='section_title'>About</h2>
       <div className="container about__container">
         <AboutLeft />
         <AboutRight />
       </div>
-    </section >
+    </div >
   );
 };
 

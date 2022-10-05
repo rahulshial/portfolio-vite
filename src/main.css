@@ -26,6 +26,8 @@
   --transition: all 400ms ease;
   --color-teal-secondary: #04c2c9;
   --color-teal-primary: #00a1a7;
+  --medium: 900px;
+  --small: 600px
 }
 
 html {
@@ -40,7 +42,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: var(--color-white);
   line-height: 1.7;
-  background: url(./assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) no-repeat;
+  background: url(./assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) repeat;
   background-size: fill;
 }
 
@@ -59,18 +61,11 @@ h1 {
   font-size: 40px;
 }
 
-section {
-   height: 100vh;
-}
-
-section > h2, section > h5 {
-  text-align: center;
-}
-
 .section_title {
   color: var(--color-white);
   font-weight: bold;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .text-light {
@@ -115,17 +110,19 @@ a:hover {
 }
 
 /* MEDI QUERY (MEDIUM DEVICES) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: var(--medium)) {
   .container {
     width: var(--container-width-md);
+    background-size: fill;
+    margin: 0;
   }
-  section {
+  /* section {
     margin-top: 96px
-  }
+  } */
 }
 
 /* MEDI QUERY (SMALL DEVICES) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: var(--small)) {
   .container {
     width: var(--container-width-sm);
   }

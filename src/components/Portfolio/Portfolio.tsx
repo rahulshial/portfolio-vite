@@ -22,14 +22,14 @@ const Portfolio = () => {
   }
 
   return (
-    <section id='portfolio'>
+    <div id='portfolio'>
       <h2 className='section_title'>Portfolio</h2>
       <div className="container portfolio__container">
         {PORTFOLIO.map((project) => {
           return portfolioCard(project)
         })}
       </div>
-    </section>
+    </div>
   );
 };
 

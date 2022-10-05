@@ -1,10 +1,9 @@
-/* #contact {
-  background: url(../../assets/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg) no-repeat;
-  background-size: 100%;
-} */
-
-
-
+.contact__container {
+  /* display: grid;
+  grid-template-columns: 35% 55%;
+  gap: 10%; */
+  height: 100%;
+}
 
 
 /* MEDI QUERY (MEDIUM DEVICES */
