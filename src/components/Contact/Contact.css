@@ -1,17 +1,58 @@
 .contact__container {
-  /* display: grid;
+  width: 58%;
+  display: grid;
   grid-template-columns: 35% 55%;
-  gap: 10%; */
-  height: 100%;
+  gap: 10%;
+  /* height: 100%; */
 }
 
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__option {
+  background: transparent;
+  /* color: var(--color-secondary); */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid var(--color-secondary);
+}
+
+.contact__option:hover {
+  border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.contact__option a {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form__input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--color-secondary);
+  border-radius: 20px;
+  text-indent: 10px;
+  line-height: 30px;
+  color: white;
+}
 
 /* MEDI QUERY (MEDIUM DEVICES */
-@media screen and (max-width: 1200px) {
-  /* #contact {
-    background-size: cover;
-    margin: 0;
-  } */
+@media screen and (max-width: 900px) {
 
   .section_title {
     padding-top: 20px;
@@ -20,9 +61,5 @@
 
 /* MEDI QUERY (SMALL DEVICES */
 @media screen and (max-width: 600px) {
-  /* #contact {
-    background-size: fill;
-    margin: 0;
-    height: 100%
-  } */
+
 }
